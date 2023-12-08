@@ -1,0 +1,25 @@
+<!-- your_template.html -->
+
+<html>
+<head>
+    <title>Your Title</title>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for employee in ah %}
+            <tr>
+                <td>{{ employee.name }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+</body>
+</html>
