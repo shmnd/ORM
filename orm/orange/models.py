@@ -1,4 +1,6 @@
 from django.db import models
+# form django.db.models import Q
+
 
 # Create your models here.
 class employee(models.Model):
@@ -9,4 +11,4 @@ class employee(models.Model):
     salary=models.IntegerField()
     
 
-# das
+    

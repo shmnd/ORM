@@ -21,4 +21,17 @@ from.models import employee
     
 
     
+    #     import os
+
+
     
+    
+# my_instance = MyModel.objects.filter(name='example').order_by('some_field').first()
+
+
+# import os
+
+# def clear_screen():
+#     os.system('cls' if os.name == 'nt' else 'clear')
+
+# clear_screen()
